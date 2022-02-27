@@ -1,3 +1,4 @@
+import React from 'react';
 import Appbar from './components/Appbar/Appbar';
 import MainView from './components/MainView/MainView';
 import ShipsContextProvider from './context/ShipsContextProvider';
