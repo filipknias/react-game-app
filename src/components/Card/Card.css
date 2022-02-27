@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+.card {
+  border-radius: 20px;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.card .topSection {
+  background-color: #191937;
+  padding: 20px;
+  position: relative;
+  height: 400px;
+}
+
+.card .topSection .mainIcon {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100px;
+  height: 100px;
+}
+
+.card .topSection .iconsContainer {
+  display: flex;
+  align-items: flex-end;
+  height: 100%;
+  gap: 10px;
+}
+
+.card .topSection .iconsContainer .icon {
+  width: 40px;
+  height: 40px;
+}
+
+.card .mainSection {
+  padding: 20px;
+  background-color: #1A2831;
+}
+
+.card .mainSection .headerContainer {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.card .mainSection .headerContainer .title {
+  font-size: 35px;
+}
+
+.card .mainSection .headerContainer .titleIcon {
+  width: 45px;
+  height: 45px;
+}
+
+.card .mainSection .shipInfoList {
+  list-style: none;
+  margin-top: 30px;
+}
+
+.card .mainSection .shipInfoList .listItem {
+  display: flex;
+  align-items: center;
+  justify-content: space-between; 
+  font-size: 30px;
+  padding: 10px 0;
+}
+
+.card .mainSection .detailsButton {
+  background-color: #1C8DA6;
+  color: white;
+  text-transform: uppercase;
+  border-radius: 30px;
+  font-size: 20px;
+  padding: 20px 40px;
+  margin-top: 40px;
+  letter-spacing: 4px;
+  outline: none;
+  border: none;
+  cursor: pointer;  
+}

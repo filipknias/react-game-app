@@ -1,0 +1,58 @@
+.inputContainer {
+  display: flex;
+  align-items: center;
+  width: 500px;
+  padding: 5px 10px 5px 20px;
+  border-radius: 30px;
+  background-color: white;
+  margin: 40px auto;
+}
+
+.inputContainer .searchInput {
+  font-size: 25px;
+  color: black;
+  flex: 1;
+  border: none;
+  outline: none;
+}
+
+.inputContainer .searchSubmit {
+  background-color: black;
+  border-radius: 50%;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.shipsGrid {
+  width: 80%;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 80px;
+  padding: 0 80px;
+  margin: 80px auto;
+}
+
+@media screen and (max-width: 1800px) {
+  .shipsGrid {
+    width: 90%;
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .shipsGrid {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .shipsGrid {
+    width: auto;
+    padding: 0 40px;
+  }
+  .inputContainer {
+    width: auto;
+    margin-left: 40px;
+    margin-right: 40px;
+  }
+}
